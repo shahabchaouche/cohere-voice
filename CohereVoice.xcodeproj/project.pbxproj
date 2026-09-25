@@ -1,0 +1,736 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0419C9B18D9DF4C73B6472D5 /* CohereVoiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02DCAC8BCC59B3ABC1E7369 /* CohereVoiceApp.swift */; };
+		09FED7A60B37DD270495AAD3 /* DictationHistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123FF32873F056E99533799 /* DictationHistoryController.swift */; };
+		0E73A7D89B8629833CDE6D6B /* Hotkey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7185E78014513BB4B412CEB /* Hotkey.swift */; };
+		0F5BC5A739CBBB3D2F724BEA /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088CE183CDC2600EE0FA6010 /* AppSettings.swift */; };
+		12A10510DB93C92DAE86F816 /* TextInsertionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595C1D8A2444973F93019900 /* TextInsertionService.swift */; };
+		2C66E0A6A64889D259C51D53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E3ACCE0CF159D3D2F34BC8E /* Assets.xcassets */; };
+		2C8282E04C56084191298E60 /* iOSRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166B4AF01FE6C4FF2B4C2AF0 /* iOSRootView.swift */; };
+		3DF72A8603B9FDD4E7914001 /* CohereVoiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FDB7325773CB8EFAE18326 /* CohereVoiceTests.swift */; };
+		4ACAECC7DAFB4F730D6E91B8 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82547B21B2365E38395A1CDC /* MainView.swift */; };
+		6251FEE529B3CBF40A6E3AFF /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE0916A07F1F2CF26F0A6D /* Theme.swift */; };
+		6D967C15C02E774A04DA14DE /* CohereVoiceCore in Frameworks */ = {isa = PBXBuildFile; productRef = FDF1CA59BCD7F28C135695D9 /* CohereVoiceCore */; };
+		81791885FD2DD4787A0641ED /* CohereVoiceCore in Frameworks */ = {isa = PBXBuildFile; productRef = 5B323639EBB617569C253600 /* CohereVoiceCore */; };
+		8289760DBF6406572F1CF21C /* WaveformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9380D81E5B0167856F85FED /* WaveformView.swift */; };
+		87138579B79B17A8846C83C7 /* OverlayPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0307AD7B9CCE1EE3834D8A83 /* OverlayPanel.swift */; };
+		8BBE62A0BE97C6BDE233568C /* GlobalShortcutService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1281F26B71AF44413EA64D0 /* GlobalShortcutService.swift */; };
+		9AA1748CF28E57945A1E7FBE /* OverlayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DC81EB6991D4FBB7DCA800 /* OverlayController.swift */; };
+		9C6A619ABEB4B2320C9AF131 /* LatencyPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4775B63A900B80EC3F6344 /* LatencyPanelView.swift */; };
+		A1DEECF29C7FD5669B2CA9F6 /* DictationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA67415E101BABE9AB9F6248 /* DictationCoordinator.swift */; };
+		A4EFAEC4D77A2B68C8A28947 /* CohereVoiceCore in Frameworks */ = {isa = PBXBuildFile; productRef = FF870076D6920C6F7E69D9B2 /* CohereVoiceCore */; };
+		AF415753B9153C9C94B7CB6E /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE0916A07F1F2CF26F0A6D /* Theme.swift */; };
+		B54292674429706709D254D2 /* AccessibilityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723572CA8D8AC0DBA994C9D0 /* AccessibilityService.swift */; };
+		B78376D43DF3A1D6F2D02329 /* PermissionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F63914572FF4CC72605143 /* PermissionService.swift */; };
+		B7D79D69C71A415F1B859E3B /* RecordingArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEECA17223A3071425D3BE19 /* RecordingArchive.swift */; };
+		BD0B730D222BCBA977ED8602 /* Hotkey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7185E78014513BB4B412CEB /* Hotkey.swift */; };
+		BE8B9F00C33CF8FC99A5C0E0 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C14FBE5A85793DD7AB9108 /* SettingsView.swift */; };
+		C6A68ECB92BF02A4189AC079 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08838385B58A5266FB9A29C1 /* AppCoordinator.swift */; };
+		C8F75EB06BEC01E548A84A23 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41BF0B68DD2104BE60CAFB1 /* OnboardingView.swift */; };
+		C91A568AA7F7FCB8C488A1F9 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088CE183CDC2600EE0FA6010 /* AppSettings.swift */; };
+		D3F7B519ADA57C149B00A3B3 /* FloatingRecorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B989B6D263F66306369A44D /* FloatingRecorderView.swift */; };
+		D44899FFE77A126613FF346E /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5B140828415977CFF69AD1 /* AppModel.swift */; };
+		DB257010945172B3E4E52255 /* ActiveApplicationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5B5452D7F86E5372B0BD57 /* ActiveApplicationService.swift */; };
+		E10000E5349645334196DD6B /* CohereVoiceiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB74972B030512505F8856A /* CohereVoiceiOSApp.swift */; };
+		E12714FC4E63F45A145DC517 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07C259AA419F883E9106DC8 /* HistoryView.swift */; };
+		F02B428AE549F85CDA38C6E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 585C8FB6D5369E0B268E93A2 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0307AD7B9CCE1EE3834D8A83 /* OverlayPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayPanel.swift; sourceTree = "<group>"; };
+		08838385B58A5266FB9A29C1 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		088CE183CDC2600EE0FA6010 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		0B5B5452D7F86E5372B0BD57 /* ActiveApplicationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveApplicationService.swift; sourceTree = "<group>"; };
+		0CB74972B030512505F8856A /* CohereVoiceiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CohereVoiceiOSApp.swift; sourceTree = "<group>"; };
+		166B4AF01FE6C4FF2B4C2AF0 /* iOSRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSRootView.swift; sourceTree = "<group>"; };
+		1B989B6D263F66306369A44D /* FloatingRecorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingRecorderView.swift; sourceTree = "<group>"; };
+		1E3ACCE0CF159D3D2F34BC8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FB8FD7F6976C717549C0A97 /* CohereVoiceiOS.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = CohereVoiceiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		585C8FB6D5369E0B268E93A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		595C1D8A2444973F93019900 /* TextInsertionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInsertionService.swift; sourceTree = "<group>"; };
+		630580C0BCDFDD3C4D7D90AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		723572CA8D8AC0DBA994C9D0 /* AccessibilityService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityService.swift; sourceTree = "<group>"; };
+		82547B21B2365E38395A1CDC /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		8FDE0916A07F1F2CF26F0A6D /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		A1186C4C68218CD2AF911F53 /* CohereVoiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CohereVoiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F391F30707FA7592F8BE6C /* CohereVoiceCore */ = {isa = PBXFileReference; lastKnownFileType = folder; name = CohereVoiceCore; path = CohereVoiceCore; sourceTree = SOURCE_ROOT; };
+		A9380D81E5B0167856F85FED /* WaveformView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveformView.swift; sourceTree = "<group>"; };
+		B1281F26B71AF44413EA64D0 /* GlobalShortcutService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalShortcutService.swift; sourceTree = "<group>"; };
+		B41BF0B68DD2104BE60CAFB1 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		B7185E78014513BB4B412CEB /* Hotkey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotkey.swift; sourceTree = "<group>"; };
+		C0FDB7325773CB8EFAE18326 /* CohereVoiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CohereVoiceTests.swift; sourceTree = "<group>"; };
+		C868DD71462C45584098AAFD /* CohereVoice.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CohereVoice.entitlements; sourceTree = "<group>"; };
+		CA5B140828415977CFF69AD1 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		D02DCAC8BCC59B3ABC1E7369 /* CohereVoiceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CohereVoiceApp.swift; sourceTree = "<group>"; };
+		DC4775B63A900B80EC3F6344 /* LatencyPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatencyPanelView.swift; sourceTree = "<group>"; };
+		DEECA17223A3071425D3BE19 /* RecordingArchive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingArchive.swift; sourceTree = "<group>"; };
+		E07C259AA419F883E9106DC8 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		E6C14FBE5A85793DD7AB9108 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F123FF32873F056E99533799 /* DictationHistoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictationHistoryController.swift; sourceTree = "<group>"; };
+		F1B70A8D6B2AE407DBDC83E4 /* CohereVoice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CohereVoice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4F63914572FF4CC72605143 /* PermissionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionService.swift; sourceTree = "<group>"; };
+		F5DC81EB6991D4FBB7DCA800 /* OverlayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayController.swift; sourceTree = "<group>"; };
+		FA67415E101BABE9AB9F6248 /* DictationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictationCoordinator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E8F7FA688EA5A181BA52352 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4EFAEC4D77A2B68C8A28947 /* CohereVoiceCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FD8DDD624C0CFB43245F75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81791885FD2DD4787A0641ED /* CohereVoiceCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98DEAD20786362B33BC303C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D967C15C02E774A04DA14DE /* CohereVoiceCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		027B3B6196FE41C5E3F9D91C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				585C8FB6D5369E0B268E93A2 /* Assets.xcassets */,
+				C868DD71462C45584098AAFD /* CohereVoice.entitlements */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2CFC94D202DDC682AD13A535 /* CohereVoiceiOS */ = {
+			isa = PBXGroup;
+			children = (
+				1E3ACCE0CF159D3D2F34BC8E /* Assets.xcassets */,
+				0CB74972B030512505F8856A /* CohereVoiceiOSApp.swift */,
+				630580C0BCDFDD3C4D7D90AA /* Info.plist */,
+				166B4AF01FE6C4FF2B4C2AF0 /* iOSRootView.swift */,
+			);
+			path = CohereVoiceiOS;
+			sourceTree = "<group>";
+		};
+		3720E2A96C98CF95023390C4 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1B989B6D263F66306369A44D /* FloatingRecorderView.swift */,
+				F5DC81EB6991D4FBB7DCA800 /* OverlayController.swift */,
+				0307AD7B9CCE1EE3834D8A83 /* OverlayPanel.swift */,
+				8FDE0916A07F1F2CF26F0A6D /* Theme.swift */,
+				A9380D81E5B0167856F85FED /* WaveformView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		3EDAE39C8DAAA0721442A913 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				A8F391F30707FA7592F8BE6C /* CohereVoiceCore */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		543DA43AD40C0F3B8AD75226 = {
+			isa = PBXGroup;
+			children = (
+				7A41513E17A2C211C967ECFC /* CohereVoice */,
+				2CFC94D202DDC682AD13A535 /* CohereVoiceiOS */,
+				973DFFA0203C4073ED16980F /* CohereVoiceTests */,
+				3EDAE39C8DAAA0721442A913 /* Packages */,
+				D1634C0A6DD3CAF8833AF801 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DCC8ECAB45A4C920A3BE5D3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				08838385B58A5266FB9A29C1 /* AppCoordinator.swift */,
+				CA5B140828415977CFF69AD1 /* AppModel.swift */,
+				088CE183CDC2600EE0FA6010 /* AppSettings.swift */,
+				D02DCAC8BCC59B3ABC1E7369 /* CohereVoiceApp.swift */,
+				FA67415E101BABE9AB9F6248 /* DictationCoordinator.swift */,
+				F123FF32873F056E99533799 /* DictationHistoryController.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		63EC5A466CFEE25EBBF00184 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				723572CA8D8AC0DBA994C9D0 /* AccessibilityService.swift */,
+				0B5B5452D7F86E5372B0BD57 /* ActiveApplicationService.swift */,
+				B1281F26B71AF44413EA64D0 /* GlobalShortcutService.swift */,
+				B7185E78014513BB4B412CEB /* Hotkey.swift */,
+				F4F63914572FF4CC72605143 /* PermissionService.swift */,
+				DEECA17223A3071425D3BE19 /* RecordingArchive.swift */,
+				595C1D8A2444973F93019900 /* TextInsertionService.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		6D92EC989AD92F330C14EBD6 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				E07C259AA419F883E9106DC8 /* HistoryView.swift */,
+				DC4775B63A900B80EC3F6344 /* LatencyPanelView.swift */,
+				82547B21B2365E38395A1CDC /* MainView.swift */,
+				B41BF0B68DD2104BE60CAFB1 /* OnboardingView.swift */,
+				E6C14FBE5A85793DD7AB9108 /* SettingsView.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		7A41513E17A2C211C967ECFC /* CohereVoice */ = {
+			isa = PBXGroup;
+			children = (
+				5DCC8ECAB45A4C920A3BE5D3 /* App */,
+				6D92EC989AD92F330C14EBD6 /* Features */,
+				027B3B6196FE41C5E3F9D91C /* Resources */,
+				63EC5A466CFEE25EBBF00184 /* System */,
+				3720E2A96C98CF95023390C4 /* UI */,
+			);
+			path = CohereVoice;
+			sourceTree = "<group>";
+		};
+		973DFFA0203C4073ED16980F /* CohereVoiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0FDB7325773CB8EFAE18326 /* CohereVoiceTests.swift */,
+			);
+			path = CohereVoiceTests;
+			sourceTree = "<group>";
+		};
+		D1634C0A6DD3CAF8833AF801 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1B70A8D6B2AE407DBDC83E4 /* CohereVoice.app */,
+				2FB8FD7F6976C717549C0A97 /* CohereVoiceiOS.app */,
+				A1186C4C68218CD2AF911F53 /* CohereVoiceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BAEAC26F9D62C9154491FC5 /* CohereVoiceiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDAA2F002925D1437B66C02D /* Build configuration list for PBXNativeTarget "CohereVoiceiOS" */;
+			buildPhases = (
+				95935234210922062B0D7753 /* Sources */,
+				070961E63D880866D10AD7CE /* Resources */,
+				1E8F7FA688EA5A181BA52352 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CohereVoiceiOS;
+			packageProductDependencies = (
+				FF870076D6920C6F7E69D9B2 /* CohereVoiceCore */,
+			);
+			productName = CohereVoiceiOS;
+			productReference = 2FB8FD7F6976C717549C0A97 /* CohereVoiceiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB42A353CBB1B6C9E89C1125 /* CohereVoice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE370446685145566A119D9B /* Build configuration list for PBXNativeTarget "CohereVoice" */;
+			buildPhases = (
+				946D1303E8FCEC2B96DCC653 /* Sources */,
+				68E861365FCEF5FB0ABFB378 /* Resources */,
+				98DEAD20786362B33BC303C0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CohereVoice;
+			packageProductDependencies = (
+				FDF1CA59BCD7F28C135695D9 /* CohereVoiceCore */,
+			);
+			productName = CohereVoice;
+			productReference = F1B70A8D6B2AE407DBDC83E4 /* CohereVoice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8C3CBB058313498D5896657 /* CohereVoiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EBE9721F054491EAF001C06 /* Build configuration list for PBXNativeTarget "CohereVoiceTests" */;
+			buildPhases = (
+				3D0FAFEF1DAAB80FFC2D6619 /* Sources */,
+				52FD8DDD624C0CFB43245F75 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CohereVoiceTests;
+			packageProductDependencies = (
+				5B323639EBB617569C253600 /* CohereVoiceCore */,
+			);
+			productName = CohereVoiceTests;
+			productReference = A1186C4C68218CD2AF911F53 /* CohereVoiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E89E7FC57A06E7223595F5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					EB42A353CBB1B6C9E89C1125 = {
+						ProvisioningStyle = Automatic;
+					};
+					8BAEAC26F9D62C9154491FC5 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B910D6692B79537904A834AE /* Build configuration list for PBXProject "CohereVoice" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 543DA43AD40C0F3B8AD75226;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				27D8325E28EA4A1BC64212DC /* XCLocalSwiftPackageReference "CohereVoiceCore" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D1634C0A6DD3CAF8833AF801 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB42A353CBB1B6C9E89C1125 /* CohereVoice */,
+				F8C3CBB058313498D5896657 /* CohereVoiceTests */,
+				8BAEAC26F9D62C9154491FC5 /* CohereVoiceiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		070961E63D880866D10AD7CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C66E0A6A64889D259C51D53 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68E861365FCEF5FB0ABFB378 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F02B428AE549F85CDA38C6E7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D0FAFEF1DAAB80FFC2D6619 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F5BC5A739CBBB3D2F724BEA /* AppSettings.swift in Sources */,
+				3DF72A8603B9FDD4E7914001 /* CohereVoiceTests.swift in Sources */,
+				BD0B730D222BCBA977ED8602 /* Hotkey.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946D1303E8FCEC2B96DCC653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B54292674429706709D254D2 /* AccessibilityService.swift in Sources */,
+				DB257010945172B3E4E52255 /* ActiveApplicationService.swift in Sources */,
+				C6A68ECB92BF02A4189AC079 /* AppCoordinator.swift in Sources */,
+				D44899FFE77A126613FF346E /* AppModel.swift in Sources */,
+				C91A568AA7F7FCB8C488A1F9 /* AppSettings.swift in Sources */,
+				0419C9B18D9DF4C73B6472D5 /* CohereVoiceApp.swift in Sources */,
+				A1DEECF29C7FD5669B2CA9F6 /* DictationCoordinator.swift in Sources */,
+				09FED7A60B37DD270495AAD3 /* DictationHistoryController.swift in Sources */,
+				D3F7B519ADA57C149B00A3B3 /* FloatingRecorderView.swift in Sources */,
+				8BBE62A0BE97C6BDE233568C /* GlobalShortcutService.swift in Sources */,
+				E12714FC4E63F45A145DC517 /* HistoryView.swift in Sources */,
+				0E73A7D89B8629833CDE6D6B /* Hotkey.swift in Sources */,
+				9C6A619ABEB4B2320C9AF131 /* LatencyPanelView.swift in Sources */,
+				4ACAECC7DAFB4F730D6E91B8 /* MainView.swift in Sources */,
+				C8F75EB06BEC01E548A84A23 /* OnboardingView.swift in Sources */,
+				9AA1748CF28E57945A1E7FBE /* OverlayController.swift in Sources */,
+				87138579B79B17A8846C83C7 /* OverlayPanel.swift in Sources */,
+				B78376D43DF3A1D6F2D02329 /* PermissionService.swift in Sources */,
+				B7D79D69C71A415F1B859E3B /* RecordingArchive.swift in Sources */,
+				BE8B9F00C33CF8FC99A5C0E0 /* SettingsView.swift in Sources */,
+				12A10510DB93C92DAE86F816 /* TextInsertionService.swift in Sources */,
+				6251FEE529B3CBF40A6E3AFF /* Theme.swift in Sources */,
+				8289760DBF6406572F1CF21C /* WaveformView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95935234210922062B0D7753 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E10000E5349645334196DD6B /* CohereVoiceiOSApp.swift in Sources */,
+				AF415753B9153C9C94B7CB6E /* Theme.swift in Sources */,
+				2C8282E04C56084191298E60 /* iOSRootView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		078588B4173EBE3D200802CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_REQUIRED = YES;
+				CODE_SIGN_ENTITLEMENTS = CohereVoice/Resources/CohereVoice.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Cohere Voice";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_LSBackgroundOnly = NO;
+				INFOPLIST_KEY_LSUIElement = NO;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Cohere Voice records your voice while you hold the shortcut and sends it to Cohere for transcription.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shahab.coherevoice;
+				PRODUCT_MODULE_NAME = CohereVoice;
+				PRODUCT_NAME = CohereVoice;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1B524B93AE5BD3FBF0B260EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_REQUIRED = YES;
+				CODE_SIGN_ENTITLEMENTS = CohereVoice/Resources/CohereVoice.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Cohere Voice";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_LSBackgroundOnly = NO;
+				INFOPLIST_KEY_LSUIElement = NO;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Cohere Voice records your voice while you hold the shortcut and sends it to Cohere for transcription.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shahab.coherevoice;
+				PRODUCT_MODULE_NAME = CohereVoice;
+				PRODUCT_NAME = CohereVoice;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		461B99426845C70723B067F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		6C9DC476BF64BFC61E932AE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shahab.coherevoice.tests;
+				PRODUCT_MODULE_NAME = CohereVoiceTests;
+				SDKROOT = macosx;
+				TEST_HOST = "";
+			};
+			name = Release;
+		};
+		8A80AB7DEDE2E3AF024609EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CohereVoiceiOS/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Cohere Voice";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Cohere Voice records your voice and sends it to Cohere for transcription.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shahab.coherevoice.ios;
+				PRODUCT_NAME = "Cohere Voice";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDCCD0D4EACAA26A959653B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shahab.coherevoice.tests;
+				PRODUCT_MODULE_NAME = CohereVoiceTests;
+				SDKROOT = macosx;
+				TEST_HOST = "";
+			};
+			name = Debug;
+		};
+		BEE9B8FD4B88E696262A05F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		FD08296F33CFCA80E6FDD4FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CohereVoiceiOS/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Cohere Voice";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Cohere Voice records your voice and sends it to Cohere for transcription.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shahab.coherevoice.ios;
+				PRODUCT_NAME = "Cohere Voice";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EBE9721F054491EAF001C06 /* Build configuration list for PBXNativeTarget "CohereVoiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDCCD0D4EACAA26A959653B9 /* Debug */,
+				6C9DC476BF64BFC61E932AE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B910D6692B79537904A834AE /* Build configuration list for PBXProject "CohereVoice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEE9B8FD4B88E696262A05F1 /* Debug */,
+				461B99426845C70723B067F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DE370446685145566A119D9B /* Build configuration list for PBXNativeTarget "CohereVoice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				078588B4173EBE3D200802CA /* Debug */,
+				1B524B93AE5BD3FBF0B260EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EDAA2F002925D1437B66C02D /* Build configuration list for PBXNativeTarget "CohereVoiceiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD08296F33CFCA80E6FDD4FA /* Debug */,
+				8A80AB7DEDE2E3AF024609EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		27D8325E28EA4A1BC64212DC /* XCLocalSwiftPackageReference "CohereVoiceCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = CohereVoiceCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5B323639EBB617569C253600 /* CohereVoiceCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CohereVoiceCore;
+		};
+		FDF1CA59BCD7F28C135695D9 /* CohereVoiceCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CohereVoiceCore;
+		};
+		FF870076D6920C6F7E69D9B2 /* CohereVoiceCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CohereVoiceCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7E89E7FC57A06E7223595F5D /* Project object */;
+}
